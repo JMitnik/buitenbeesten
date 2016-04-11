@@ -41,4 +41,4 @@ gulp.task('watch', function() {
     });
 });
 
-gulp.task('default', ['sass', 'watch', 'minify-css' /*, possible other tasks... */]);
+gulp.task('default', ['sass', 'watch' /*, possible other tasks... */]);
