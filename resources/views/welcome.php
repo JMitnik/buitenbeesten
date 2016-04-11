@@ -26,30 +26,11 @@
 <div class="cycle-slideshow" 
         data-cycle-fx="scrollHorz" 
         data-cycle-timeout="2000"
+        data-cycle-auto-height=false
     >
     <div class="cycle-caption"></div>
     <img src="http://malsup.github.io/images/p1.jpg">
 </div>
-
-<div class=center>
-    <button>Add More Images</button>
-</div>
-
-<!-- script to add more images at a later time -->
-<script>
-var images = [
-    '<img src="http://malsup.github.io/images/p2.jpg">',
-    '<img src="http://malsup.github.io/images/p3.jpg">',
-    '<img src="http://malsup.github.io/images/p4.jpg">'
-];
-
-$('button').one('click', function() {
-    for (var i=0; i < images.length; i++) {
-        $('.cycle-slideshow').cycle('add', images[i]);
-    }
-    $(this).prop('disabled', true)
-})
-</script>
         </div>
         <div id = "doelstelling"></div>
         <div id = "bestuur"></div>
