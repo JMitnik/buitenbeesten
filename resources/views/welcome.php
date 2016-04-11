@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Stichting Buitenbeesten</title>
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
     <script src="../resources/vendor/jquery/dist/jquery.min.js"></script>
     <script src="homepagejs.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"> </script>
