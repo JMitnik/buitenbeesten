@@ -1,13 +1,44 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
+var cleanCSS = require('gulp-clean-css');
+var concat = require('gulp-concat');
+var merge = require('merge-stream');
 
-gulp.task('styles', function() {
-    gulp.src('sass/**/*.scss')
-        .pipe(sass().on('error', sass.logError))
-        .pipe(gulp.dest('./css/'))
+
+
+var input = './resources/assets/scss/*.scss';
+var output = './public/assets/css';
+
+var sassOptions = {
+  errLogToConsole: true,
+  outputStyle: 'expanded'
+};
+
+gulp.task('sass', function () {
+  var scssStream = gulp.src([input])
+    .pipe(sass(sassOptions).on('error', sass.logError))
+    .pipe(concat('scss-files.scss'));
+  ;
+
+  var mergedStream = merge(scssStream)
+        .pipe(concat('styles.css'))
+        .pipe(cleanCSS({compatibility: 'ie8'}))
+        .pipe(gulp.dest(output));
+
+    return mergedStream;
 });
 
-//Watch task
-gulp.task('default',function() {
-    gulp.watch('sass/**/*.scss',['styles']);
+
+gulp.task('watch', function() {
+  return gulp
+    // Watch the input folder for change,
+    // and run `sass` task when something happens
+    .watch(input, ['sass'])
+    // When there is a change,
+    // log a message in the console
+    .on('change', function(event) {
+      console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
+    });
 });
+
+gulp.task('default', ['sass', 'watch', 'minify-css' /*, possible other tasks... */]);

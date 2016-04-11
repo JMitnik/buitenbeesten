@@ -1,0 +1,22 @@
+#nav {
+	ul {
+
+		width: 100%;
+
+		
+
+		li {
+
+			&:first-child {
+				background-color: red;
+				color: white;
+			}
+
+			a {
+
+			}
+		}
+	}
+}
+
+$dog = white;
