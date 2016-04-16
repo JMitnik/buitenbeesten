@@ -1,0 +1,40 @@
+div#doelstelling{
+    text-align: center;
+    h1{
+        color: white;
+        text-decoration: underline;
+        text-decoration-color: white;
+    }
+    p#doelp{
+    letter-spacing: 1.5px;  
+    line-height: 1.2;
+    word-spacing: -2px;
+    text-shadow: 0.2px 0.2px #000;
+    color:white;
+    }
+    #einddoelstelling{
+        border: 0;
+        height: 50px;
+        width:100%;
+        color:#006400;
+        background-color: #006400;
+    }
+}
+div#doelstellingtekst{
+    float:left;
+    width:40%;
+    overflow:hidden;
+    margin-left:5%;
+    h2{
+        color:white;
+    }
+}
+div#beleidsplantekst{
+    float:right;
+    width:40%;
+    overflow:hidden;
+    margin-right: 5%;
+    h2{
+        color:white;
+    }
+}
