@@ -44,8 +44,8 @@ De kernactiviteit  is het zoveel als mogelijk zelfstandig maken van deze kindere
 De kernactiviteit  is het zoveel als mogelijk zelfstandig maken van deze kinderen door een leeromgeving aan te bieden met dieren in het algemeen en in het bijzonder met paarden, olv. gekwalificeerd personeel.
 </p>
         <h2>Beleidsplan Stichting Buitenbeesten</h2>
-                   <p id='doelp'>Ons beleidsplan kun je hier vinden: LONK</p>
-        </div>
+            <p id='doelp'>Ons beleidsplan kun je hier vinden: LONK</p>
+    </div>
     <div id = "bestuur">
       <h1>Bestuur</h1>
        <div id="bestuurcontent" class="clearfix">
