@@ -1,6 +1,6 @@
 #nav{
     height: 50px;
-    background-color:#006400;
+    background-color:#25A8E0;
     box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 10px 0 rgba(0,0,0,0.19);
     position: fixed;
     top: 0;
@@ -28,9 +28,8 @@
     			text-decoration: none;
     			margin: 0;
     			color: white;
-
     			&:hover {
-    				background-color: lighten(#006400, 10%);
+    				background-color: lighten(#25A8E0, 10%);
     			}
 		    }
 		}

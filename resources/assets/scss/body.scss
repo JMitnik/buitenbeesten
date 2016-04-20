@@ -1,9 +1,22 @@
 body {
     margin:0px;
     padding:0px;
-    background-color:#F0F0F0;
+    background-color:rgba(175, 224, 230, 0.8);
 }
 
 *{
     box-sizing: border-box;
 }
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */

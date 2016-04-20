@@ -1,0 +1,60 @@
+div#bestuur{
+    text-align: center;
+    h1{
+        color: white;
+        text-decoration: underline;
+        text-decoration-color: white;
+        font-family: 'Slabo 27px', serif;
+    }
+    div#bestuurcontent{
+        width:70%;
+        margin:0 auto;
+    }
+    .thumbfloater{
+        float:left;
+        width:33%;
+        padding:0 20px;
+    p{
+    letter-spacing: 1.2px;  
+    line-height: 1.2;
+    word-spacing: -2px;
+    text-shadow: 0.2px 0.2px #000;
+    color:white;
+    font-family: 'Slabo 27px', serif;
+    }
+}
+.thumbnail {
+  height: auto;
+}
+.thumbnail img {
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  transition: all 0.5s ease;
+}
+.thumbnail img.portrait {
+  width: 100%;
+  height: auto;
+}
+.thumbnail img:hover {
+    transform: scale(1.2);
+    opacity: 1;
+}
+    p#bestuurp{
+    letter-spacing: 1.2px;  
+    line-height: 1.2;
+    word-spacing: -2px;
+    text-shadow: 0.2px 0.2px #000;
+    color:white;
+    font-family: 'Slabo 27px', serif;
+    margin:0 auto;
+    width:80%;    
+    }
+    #eindbestuur{
+        border: 0;
+        height: 5px;
+        width:100%;
+        color:#006400;
+        background-color: #25A8E0;
+    }
+}

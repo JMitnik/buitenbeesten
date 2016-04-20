@@ -4,37 +4,25 @@ div#doelstelling{
         color: white;
         text-decoration: underline;
         text-decoration-color: white;
+        font-family: 'Slabo 27px', serif;
+    }
+    h2{
+        color:white;
+        font-family: 'Slabo 27px', serif;
     }
     p#doelp{
-    letter-spacing: 1.5px;  
+    width:40%;
+    letter-spacing: 1.2px;  
     line-height: 1.2;
     word-spacing: -2px;
     text-shadow: 0.2px 0.2px #000;
     color:white;
-    }
-    #einddoelstelling{
-        border: 0;
-        height: 50px;
-        width:100%;
-        color:#006400;
-        background-color: #006400;
+    font-family: 'Slabo 27px', serif;
     }
 }
 div#doelstellingtekst{
     float:left;
-    width:40%;
     overflow:hidden;
     margin-left:5%;
-    h2{
-        color:white;
-    }
 }
-div#beleidsplantekst{
-    float:right;
-    width:40%;
-    overflow:hidden;
-    margin-right: 5%;
-    h2{
-        color:white;
-    }
-}
+
