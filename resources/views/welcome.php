@@ -9,6 +9,8 @@
     <script src="../resources/assets/homepagejs.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"> </script>
     <script src="http://malsup.github.com/jquery.cycle2.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMTos_Syecrp2rzHPt1qMB6DmHXkqUGOE&callback=initMap"
+    async defer></script>
 </head>
 <body>
     <div id="container">
@@ -73,10 +75,9 @@ De kernactiviteit  is het zoveel als mogelijk zelfstandig maken van deze kindere
         <p id='bestuurp'>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
     </div>
 
-        <div id = "financieel">
-            <h1>Financieel</h1>
-        </div>
-        <div id = "contact"></div>
+    <div id = "contact">
+        <div id="map"></div>
+    </div>
         <div id="footer"></div>
     </div>
 </body>
