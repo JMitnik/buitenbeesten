@@ -1,9 +1,56 @@
-#container{
-    width:80%;
-    margin:0 auto;
-    box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-    background: -webkit-linear-gradient(top, rgba(33,136,243,1), rgba(33,136,243,0.6)); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(bottom, rgba(33,136,243,1), rgba(33,136,243,0.6)); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(top, rgba(33,136,243,1), rgba(33,136,243,0.6)); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom, rgba(33,136,243,1), rgba(33,136,243,0.6)); /* Standard syntax (must be last) */
+#container {
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: -webkit-linear-gradient(top, rgba(33, 136, 243, 1), rgba(33, 136, 243, 0.6)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom, rgba(33, 136, 243, 1), rgba(33, 136, 243, 0.6)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(top, rgba(33, 136, 243, 1), rgba(33, 136, 243, 0.6)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, rgba(33, 136, 243, 1), rgba(33, 136, 243, 0.6)); /* Standard syntax (must be last) */
 }
+
+.section {
+    .mid-col {
+        width: 60%;
+        margin: 0 auto;
+    }
+    h1 {
+        margin: 0 0 20px 0;
+    }
+    p {
+        width: 70%;
+        letter-spacing: 1.2px;
+        line-height: 1.2;
+        word-spacing: -2px;
+        text-shadow: 0.2px 0.2px #000;
+        color: white;
+        font-family: 'Slabo 27px', serif;
+        margin: 0 auto;
+    }
+
+    .subsection {
+        padding: 20px 0;
+
+        h2 {
+            margin: 0 0 10px 0;
+        }
+        &:nth-child(2) {
+            background-color: #6DB0EF;
+
+        }
+        .box {
+            display: block;
+            i {
+                font-size: 100px;
+                color: #eee;
+                &:hover {
+                    color: lighten(#eee, 10%);
+                }
+            }
+            .icon-caption {
+                display: block;
+                padding: 10px;
+            }
+        }
+
+    }
+}		
