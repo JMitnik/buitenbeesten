@@ -12,6 +12,8 @@
 
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="http://malsup.github.com/jquery.cycle2.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMTos_Syecrp2rzHPt1qMB6DmHXkqUGOE&callback=initMap"
+    async defer></script>
 </head>
 <body>
 <div id="container">
@@ -68,10 +70,12 @@
 
         </div>
     </div>
-</div>
 
-<div id="contact" class="section"></div>
+<div id="contact" class="section"><div id="map">
+    </div></div>
+
 <div id="footer" class="section"></div>
+</div>
 </div>
 </body>
 </html>
