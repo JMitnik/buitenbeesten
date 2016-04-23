@@ -27,7 +27,7 @@
     </nav>
 
     <div id="header">
-        <img id="logo" src="../resources/assets/images/logo_buitenbeesten.png" alt="stiching buitenbeesten logo"/>
+        <img id="logo" src="../resources/assets/images/logo_buitenbeesten.png" alt="stiching buitenbeesten logo"></img>
         <!-- slideshow with one image -->
         <div class="cycle-slideshow"
              data-cycle-fx="scrollHorz"
@@ -71,8 +71,28 @@
         </div>
     </div>
 
-<div id="contact" class="section"><div id="map">
-    </div></div>
+<div id="contact" class="section">
+     <div id="infodiv">
+     <div id='imgscaler'>
+     <img src="../resources/assets/images/logo_buitenbeesten.png" alt="stiching buitenbeesten logo";></img>
+    </div>
+    <ul id="kaartje">
+        <li>Middenweg 1, 1191LG</li>
+        <li>Ouderkerk aan de Amstel</li>
+        <li>&nbsp;</li>
+        <li>&nbsp;</li>
+        <li><a class="mailto" href="Bernaddete@buitenbeesten.nl">Mail:Bernaddete@buitenbeesten.nl</a></li>
+        <li>&nbsp;</li>
+        <li>Telefoon:06-21838346</li>
+        <li>&nbsp;</li>
+        <li>&nbsp;</li>
+        <li>RSIN:855765185</li>
+    </ul>  
+    </div>
+   <div id="map">
+
+    </div>
+</div>
 
 <div id="footer" class="section"></div>
 </div>
