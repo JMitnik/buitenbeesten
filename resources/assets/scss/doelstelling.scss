@@ -41,6 +41,7 @@ div#doelstelling{
     }
 
     ul {
+        padding-left: 0;
 
         li {
             float: left;
@@ -48,7 +49,7 @@ div#doelstelling{
             color: #eee;   
             font-family: 'Slabo 27px', serif;
             list-style-type: none;
-            height: 200px;
+            height: 200px;  
             width: 33%;
 
             span.fa {
