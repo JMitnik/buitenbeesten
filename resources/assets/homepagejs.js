@@ -208,11 +208,11 @@ var stylesArray=[
 
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 14,
-    center: myLatLng
+    center: {lat: 52.295469, lng: 4.925219}
   });
   var contentString = 
       '<div id="bodyContent" style="text-align:center;">'+
-      '<img src="../resources/assets/images/logo_buitenbeesten.png" alt="stiching buitenbeesten logo"; style="height:100px; width:200px;"></img>'+
+      '<img src="../resources/assets/images/logo_buitenbeesten.png" alt="stiching buitenbeesten logo";></img>'+
       '<h2 style=color:#769E72;">Middenweg 1,<br> Ouderkerk aan de Amstel</h2>'+
       '</div>';
 

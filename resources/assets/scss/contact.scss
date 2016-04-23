@@ -1,9 +1,45 @@
 div#contact{
     height: 400px;
+    position: relative;
 }
 #map {
     height: 100%;
+    z-index: 100;
 }
 #footer{
     height: 100px;
+}
+#infodiv{
+    width:25%;
+    height:300px;
+    position: absolute;
+    z-index: 1000;
+    background-color: white;
+    opacity: 0.9;
+    margin-left:10%;
+    margin-top:5%;
+}
+#kaartje{
+    padding:5px;
+    list-style-type: none;
+    font-family: 'Slabo 27px', serif;
+    letter-spacing: 1.2px;  
+    line-height: 1.2;
+    word-spacing: -2px;
+    text-shadow: 0.2px 0.2px #000;
+    color:#31ACD7;
+}
+a {
+  color: #31ACD7;
+  text-decoration: none; /* no underline */
+}
+a:hover { 
+    color:blue;
+    text-decoration: underline;
+}
+#imgscaler{
+    width:100%;
+    img{
+    width:100%
+    }
 }

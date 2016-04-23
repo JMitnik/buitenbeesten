@@ -12,6 +12,8 @@
 
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="http://malsup.github.com/jquery.cycle2.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMTos_Syecrp2rzHPt1qMB6DmHXkqUGOE&callback=initMap"
+    async defer></script>
 </head>
 <body>
 <div id="container">
@@ -25,7 +27,7 @@
     </nav>
 
     <div id="header">
-        <img id="logo" src="../resources/assets/images/logo_buitenbeesten.png" alt="stiching buitenbeesten logo"/>
+        <img id="logo" src="../resources/assets/images/logo_buitenbeesten.png" alt="stiching buitenbeesten logo"></img>
         <!-- slideshow with one image -->
         <div class="cycle-slideshow"
              data-cycle-fx="scrollHorz"
@@ -37,12 +39,63 @@
         </div>
         <!--end slidehow-->
     </div>
+    <div id="doelstelling" class="clearfix section">
+        <div class="subsection">
+            <h1>Waar staat de naam stichting BuitenBeesten voor?</h1>
+            <p>Kinderen die om welke reden dan ook niet passen binnen de setting van een regulier
+                manege/kinderboerderij, een plek te bieden om te leren omgaan met met allerlei boerderijdieren en de
+                daarbij horende verzoring. De kernactiviteit is het zoveel als mogelijk zelfstandig maken van deze
+                kinderen door een leeromgeving aan te bieden met dieren in het algemeen en in het bijzonder met paarden,
+                olv. gekwalificeerd personeel.</p>
+        </div>
+        <div class="subsection">
+            <h2>Doelstellingen Stichting Buitenbeesten</h2>
+            <p id='doelp'>Kinderen die om welke reden dan ook niet passen binnen de setting van een regulier
+                manege/kinderboerderij, een plek te bieden om te leren omgaan met met allerlei boerderijdieren en de
+                daarbij horende verzoring.
+                De kernactiviteit is het zoveel als mogelijk zelfstandig maken van deze kinderen door een leeromgeving
+                aan te bieden met dieren in het algemeen en in het bijzonder met paarden, olv. gekwalificeerd personeel.
+            </p>
+        </div>
+        <div class="subsection">
+            <h2>Beleidsplan Stichting Buitenbeesten</h2>
+            <div class="mid-col clearfix">
+                <a href="./beleidsplan" class="box float-left"><i class="fa fa-file-text" aria-hidden="true"></i>
+                <span class="icon-caption">Beleidsplan</span></a>
+                <a href="./begroting" class="box float-right"><i style='font-size: 120px' class="fa fa-table" aria-hidden="true"></i>
+                <span class="icon-caption">Begroten</span></a>
 
-    <?php include 'doelstellingen.php' ?>
+
+            </div>
+
+        </div>
+    </div>
+
+<div id="contact" class="section">
+     <div id="infodiv">
+     <div id='imgscaler'>
+     <img src="../resources/assets/images/logo_buitenbeesten.png" alt="stiching buitenbeesten logo";></img>
+    </div>
+    <ul id="kaartje">
+        <li>Middenweg 1, 1191LG</li>
+        <li>Ouderkerk aan de Amstel</li>
+        <li>&nbsp;</li>
+        <li>&nbsp;</li>
+        <li><a class="mailto" href="Bernaddete@buitenbeesten.nl">Mail:Bernaddete@buitenbeesten.nl</a></li>
+        <li>&nbsp;</li>
+        <li>Telefoon:06-21838346</li>
+        <li>&nbsp;</li>
+        <li>&nbsp;</li>
+        <li>RSIN:855765185</li>
+    </ul>  
+    </div>
+   <div id="map">
+
+    </div>
 </div>
 
-<div id="contact" class="section"></div>
 <div id="footer" class="section"></div>
+</div>
 </div>
 </body>
 </html>
