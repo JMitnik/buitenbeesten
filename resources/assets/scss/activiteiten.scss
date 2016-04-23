@@ -1,12 +1,15 @@
-div#bestuur{
+div#activiteiten{
     text-align: center;
+    background-color: #6DB0EF;
+    //auto height als er wat in staat
+    height: 250px;
     h2{
         color: white;
         text-decoration: underline;
         text-decoration-color: white;
         font-family: 'Slabo 27px', serif;
     }
-    div#bestuurcontent{
+    div#activiteitencontent{
         width:70%;
         margin:0 auto;
     }
@@ -19,4 +22,3 @@ div#bestuur{
     font-family: 'Slabo 27px', serif;
     }
 }
-
