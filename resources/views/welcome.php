@@ -21,8 +21,8 @@
         <ul id="sectionlist">
             <li class='navlistobj'><a href='#doelstelling'>Doelstelling</a></li>
             <li class='navlistobj'><a href='#bestuur'>Bestuur</a></li>
-            <li class='navlistobj'><a href='#'>Financieel</a></li>
-            <li class='navlistobj'><a href='#'>Contact</a></li>
+            <li class='navlistobj'><a href='#activiteiten'>Activiteiten</a></li>
+            <li class='navlistobj'><a href='#contact'>Contact</a></li>
         </ul>
     </nav>
 
@@ -40,7 +40,10 @@
         <!--end slidehow-->
     </div>
     <?php @include 'doelstellingen.php' ?>
-
+<div id="activiteiten" class="section">
+   <h2>Buitenbeesten en activiteiten</h2>
+   <p>Hier worden de activiteiten van de stichting weergegeven zodra deze klaar zijn.</p>
+    </div>
 <div id="contact" class="section">
      <div id="infodiv">
      <div id='imgscaler'>
@@ -60,7 +63,6 @@
     </ul>  
     </div>
    <div id="map">
-
     </div>
 </div>
 
