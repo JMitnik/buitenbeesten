@@ -7,17 +7,17 @@ div#contact{
     z-index: 100;
 }
 #footer{
-    height: 100px;
+    height: 50px;
 }
 #infodiv{
-    width:25%;
-    height:300px;
+    width: auto;
     position: absolute;
-    z-index: 1000;
+    z-index: 400;
     background-color: white;
     opacity: 0.9;
-    margin-left:10%;
-    margin-top:5%;
+    padding: 30px;  
+    left: 10px;
+    top: 50px;
 }
 #kaartje{
     padding:5px;
@@ -26,11 +26,10 @@ div#contact{
     letter-spacing: 1.2px;  
     line-height: 1.2;
     word-spacing: -2px;
-    text-shadow: 0.2px 0.2px #000;
-    color:#31ACD7;
+    color: #3E9D50;
 }
 a {
-  color: #31ACD7;
+  color: #3E9D50;
   text-decoration: none; /* no underline */
 }
 a:hover { 
@@ -38,8 +37,10 @@ a:hover {
     text-decoration: underline;
 }
 #imgscaler{
-    width:100%;
+    width: 200px;
+
     img{
-    width:100%
+        width:100%;
+
     }
 }

@@ -5,7 +5,7 @@
             Samen met gekwalificeerde collega's vormen we een superteam om kinderen een fijne leerzame middag te geven in een rustige en uitdagende omgeving. We kijken naar wat het kind nodig heeft, in overleg met de ouders, en stellen daarop bepaalde doelen af.
             </p>
             <h3>Zoals:</h3>
-            <ul class="clearfix">
+            <ul class="clearfix descr">
                 <li>
                 <span>
                     <span class="fa-stack fa-lg">
@@ -73,10 +73,19 @@
         </div>
         <div class="subsection">
             <h2>Beleidsplan Stichting Buitenbeesten</h2>
-            <div class="mid-col clearfix">
-                <a href="./beleidsplan" class="box float-left"><i class="fa fa-file-text" aria-hidden="true"></i>
+            <div class="clearfix">
+                <a href="./beleidsplan" class="box w33"><i class="fa fa-file-text" aria-hidden="true"></i>
                 <span class="icon-caption">Beleidsplan</span></a>
-                <a href="./begroting" class="box float-right"><i style='font-size: 120px' class="fa fa-table" aria-hidden="true"></i>
+                <div class="w33">
+                    <ul>
+                        <li>Voorzitter: Gwan Ho</li>
+                        <li>Penningmeester: Vincent Zumpolle</li>
+                        <li>Secretaris: Monique Geurts</li>
+                    </ul>
+                    <span>Bestuur krijgt geen honorarium</span>
+                </div>
+
+                <a href="./begroting" class="box w33"><i style='font-size: 120px' class="fa fa-table" aria-hidden="true"></i>
                 <span style="margin-top: -20px" class="icon-caption">Begroten</span></a>
 
 

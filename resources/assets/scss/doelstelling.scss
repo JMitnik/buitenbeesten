@@ -43,19 +43,23 @@ div#doelstelling{
     ul {
         padding-left: 0;
 
+        &.descr {
+            li {
+                height: 200px;  
+            }
+        }
+
         li {
             float: left;
             padding: 15px;
             color: #eee;   
             font-family: 'Slabo 27px', serif;
             list-style-type: none;
-            height: 200px;  
             width: 33%;
 
-            span.fa {
-
-            }
         }
+
+
     }
 }
 
