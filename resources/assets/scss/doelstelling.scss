@@ -1,4 +1,29 @@
 div#doelstelling{
+
+    $icon-size: 5em;
+
+    .fa-stack.fa-lg{
+        color: #eee;
+        width: $icon-size;
+        height: $icon-size;
+        line-height: $icon-size;
+
+        .fa-stack-2x {
+            font-size: $icon-size;
+        }
+
+        .fa-stack-1x {
+            font-size: $icon-size - 2;
+        }
+        
+        &+span {
+            display: block;
+            width: 100%;
+        }
+
+}
+
+
     text-align: center;
     h1{
         color: white;
@@ -9,6 +34,27 @@ div#doelstelling{
     h2{
         color:white;
         font-family: 'Slabo 27px', serif;
+    }
+    h3 {
+        color: white;
+        font-family: 'Slabo 27px', serif;
+    }
+
+    ul {
+
+        li {
+            float: left;
+            padding: 15px;
+            color: #eee;   
+            font-family: 'Slabo 27px', serif;
+            list-style-type: none;
+            height: 200px;
+            width: 33%;
+
+            span.fa {
+
+            }
+        }
     }
 }
 
