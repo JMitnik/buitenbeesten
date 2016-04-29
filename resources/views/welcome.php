@@ -66,7 +66,9 @@
     </div>
 </div>
 
-<div id="footer" class="section"></div>
+<div id="footer" class="section">
+    <p id='footerp'>Stiching Buitenbeesten 2016</p>
+</div>
 </div>
 </div>
 </body>
