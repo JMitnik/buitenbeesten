@@ -23,6 +23,7 @@
             <li class='navlistobj'><a href='#beleidsplan'>Beleidsplan</a></li>
             <li class='navlistobj'><a href='#bestuur'>Bestuur</a></li>
             <li class='navlistobj'><a href='#activiteiten'>Actueel</a></li>
+            <li class='navlistobj'><a href='#financieel'>Financiële Verantwoording</a></li>
             <li class='navlistobj'><a href='#contact'>Contact</a></li>
         </ul>
     </nav>
@@ -31,10 +32,12 @@
     <?php @include 'beleidsplan.php' ?>
     <?php @include 'bestuur.php' ?>
     <?php @include 'activiteiten.php' ?>
+    <?php @include 'financieel.php' ?>
+
 <div id="contact" class="section">
      <div id="infodiv">
      <div id='imgscaler'>
-     <img src="../resources/assets/images/logo_buitenbeesten.png" alt="stiching buitenbeesten logo";></img>
+     <img src="../resources/assets/images/logo_stichting_bb.png" alt="stiching buitenbeesten logo";></img>
     </div>
     <ul id="kaartje">
         <li>Middenweg 1, 1191LG</li>

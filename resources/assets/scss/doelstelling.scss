@@ -24,43 +24,69 @@ div#doelstelling{
 
     
 
+// <<<<<<< HEAD
 
-    ul {
-        padding-left: 0;
+//     ul {
+//         padding-left: 0;
 
-        li {
-            float: left;
-            padding: 15px;
-            color: #eee;   
-            font-family: 'Slabo 27px', serif;
-            list-style-type: none;
-            height: 200px;  
-            width: 33%;
-            opacity: 0;
-            -moz-transition: all 700ms ease-out;
-            -webkit-transition: all 700ms ease-out;
-            -o-transition: all 700ms ease-out;
-            transition: all 700ms ease-out;
-            -moz-transform: translate3d(0px, 200px, 0px);
-            -webkit-transform: translate3d(0px, 200px, 0px);
-            -o-transform: translate(0px, 200px);
-            -ms-transform: translate(0px, 200px);
-            transform: translate3d(0px, 200, 0px);
-            -webkit-backface-visibility: hidden;
-            -moz-backface-visibility: hidden;
-            backface-visibility: hidden;
-            &.in-view{
-                opacity: 1;
-                -moz-transform: translate3d(0px, 0px, 0px);
-                -webkit-transform: translate3d(0px, 0px, 0px);
-                -o-transform: translate(0px, 0px);
-                -ms-transform: translate(0px, 0px);
-                transform: translate3d(0px, 0px, 0px);
-            }
-            span.fa {
-            
-            }
+//         li {
+// =======
+//     text-align: center;
+//     h1{
+//         color: white;
+//         text-decoration: underline;
+//         text-decoration-color: white;
+//         font-family: 'Slabo 27px', serif;
+//     }
+//     h2{
+//         color:white;
+//         font-family: 'Slabo 27px', serif;
+//     }
+//     h3 {
+//         color: white;
+//         font-family: 'Slabo 27px', serif;
+//     }
+//     li{
+// >>>>>>> bb3789ae75505138aaedbc26d8da66870d3de36a
+//             float: left;
+//             color: #eee;   
+//             font-family: 'Slabo 27px', serif;
+//             list-style-type: none;
+//             width: 33%;
+//     }
+
+// }
+
+
+ul.falogos{
+    padding-left: 0;
+
+    li {
+        padding: 15px;
+        height: 200px;  
+        opacity: 0;
+        -moz-transition: all 700ms ease-out;
+        -webkit-transition: all 700ms ease-out;
+        -o-transition: all 700ms ease-out;
+        transition: all 700ms ease-out;
+        -moz-transform: translate3d(0px, 200px, 0px);
+        -webkit-transform: translate3d(0px, 200px, 0px);
+        -o-transform: translate(0px, 200px);
+        -ms-transform: translate(0px, 200px);
+        transform: translate3d(0px, 200, 0px);
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        backface-visibility: hidden;
+        &.in-view{
+            opacity: 1;
+            -moz-transform: translate3d(0px, 0px, 0px);
+            -webkit-transform: translate3d(0px, 0px, 0px);
+            -o-transform: translate(0px, 0px);
+            -ms-transform: translate(0px, 0px);
+            transform: translate3d(0px, 0px, 0px);
+        }
+        span.fa {
+        
         }
     }
 }
-
