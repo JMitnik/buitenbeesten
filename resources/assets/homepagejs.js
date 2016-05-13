@@ -235,7 +235,7 @@ var stylesArray=[
   });
   var contentString = 
       '<div id="bodyContent" style="text-align:center;">'+
-      '<img src="../resources/assets/images/logo_buitenbeesten.png" alt="stiching buitenbeesten logo";></img>'+
+      '<img src="../resources/assets/images/logo_stichting_bb.png" alt="stiching buitenbeesten logo";></img>'+
       '<h2 style=color:#769E72;">Middenweg 1,<br> Ouderkerk aan de Amstel</h2>'+
       '</div>';
 
