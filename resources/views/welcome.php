@@ -20,44 +20,20 @@
     <nav id="nav">
         <ul id="sectionlist">
             <li class='navlistobj'><a href='#doelstelling'>Doelstelling</a></li>
+            <li class='navlistobj'><a href='#beleidsplan'>Beleidsplan</a></li>
             <li class='navlistobj'><a href='#bestuur'>Bestuur</a></li>
-            <li class='navlistobj'><a href='#activiteiten'>Activiteiten</a></li>
-            <li class='navlistobj'><a href='#finverantwoording'>Financiële verantwoording</a></li>
+            <li class='navlistobj'><a href='#activiteiten'>Actueel</a></li>
+            <li class='navlistobj'><a href='#financieel'>Financiële Verantwoording</a></li>
             <li class='navlistobj'><a href='#contact'>Contact</a></li>
         </ul>
     </nav>
-
-    <div id="header">
-        <img id="logo" src="../resources/assets/images/logo_stichting_bb.png" alt="stiching buitenbeesten logo"></img>
-        <!-- slideshow with one image -->
-        <div class="cycle-slideshow"
-             data-cycle-fx="scrollHorz"
-             data-cycle-timeout="3000"
-             data-cycle-auto-height=false
-        >
-            <div class="cycle-caption"></div>
-            <img src="../resources/assets/images/IMG_1180.jpeg">
-        </div>
-        <!--end slidehow-->
-    </div>
+    <?php @include 'header.php' ?>
     <?php @include 'doelstellingen.php' ?>
-<div id="activiteiten" class="section">
-   <h2>Buitenbeesten en activiteiten</h2>
-   <p>Hier worden de activiteiten van de stichting weergegeven zodra deze klaar zijn.</p>
-    </div>
-<div id="finverantwoording" class="section">
-   <h2>Financiële verantwoording</h2>
-   <h3>Jaarrekening 2015</h3>
-   <div class="fintable">
-<div class="datagrid"><table>
-<thead><tr><th>Baten & Lasten</th><th>Activa & Passiva</th></tr></thead>
-<tbody><tr><td>Baten: Nihil</td><td>Activa: Nihil</td></tr>
-<tr class="alt"><td>Lasten: Nihil</td><td>Passive: Nihil</td></tr>
-</tbody>
-</table></div>
-    </div>
-    <p>De stichting zijn eind november opgericht en in de weken tot eind december is er niets financieels gebeurd, er waren geen bankmutaties in 2015 want stichting kregen onze bankrekening pas begin 2016.</p>
-    </div>
+    <?php @include 'beleidsplan.php' ?>
+    <?php @include 'bestuur.php' ?>
+    <?php @include 'activiteiten.php' ?>
+    <?php @include 'financieel.php' ?>
+
 <div id="contact" class="section">
      <div id="infodiv">
      <div id='imgscaler'>

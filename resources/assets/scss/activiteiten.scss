@@ -1,12 +1,11 @@
 div#activiteiten{
     text-align: center;
-    background-color: #6DB0EF;
+    // background-color: #6DB0EF;
     //auto height als er wat in staat
     height: 250px;
+    
     h2{
         color: white;
-        text-decoration: underline;
-        text-decoration-color: white;
         font-family: 'Slabo 27px', serif;
     }
     div#activiteitencontent{
@@ -14,11 +13,11 @@ div#activiteiten{
         margin:0 auto;
     }
     p{
-    letter-spacing: 1.2px;  
-    line-height: 1.2;
-    word-spacing: -2px;
-    text-shadow: 0.2px 0.2px #000;
-    color:white;
-    font-family: 'Slabo 27px', serif;
+        letter-spacing: 1.2px;  
+        line-height: 1.2;
+        word-spacing: -2px;
+        text-shadow: 0.2px 0.2px #000;
+        color:white;
+        font-family: 'Slabo 27px', serif;
     }
 }
