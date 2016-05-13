@@ -1,5 +1,4 @@
     <div id="doelstelling" class="clearfix section">
-        <div class="subsection">
             <h1>Waar staat de naam stichting Buitenbeesten voor?</h1>
             <p>Alles wat we met kinderen buiten op de boerderij samen met de beesten kunnen doen!
             Samen met gekwalificeerde collega's vormen we een superteam om kinderen een fijne leerzame middag te geven in een rustige en uitdagende omgeving. We kijken naar wat het kind nodig heeft, in overleg met de ouders, en stellen daarop bepaalde doelen af.
@@ -61,36 +60,18 @@
                 </span>
                 </li>
             </ul>
-        </div>
-        <div class="subsection">
-            <h2>Doelstellingen Stichting Buitenbeesten</h2>
-            <p id='doelp'>Kinderen die om welke reden dan ook niet passen binnen de setting van een regulier
-                manege/kinderboerderij, een plek te bieden om te leren omgaan met allerlei boerderijdieren en de
-                daarbij horende verzorging.
-                De kernactiviteit is het zoveel als mogelijk is zelfstandig maken van deze kinderen door een leeromgeving
-                aan te bieden met dieren in het algemeen en in het bijzonder met paarden, o.l.v. gekwalificeerd personeel.
-            </p>
-        </div>
-        <div class="subsection">
-            <h2>Beleidsplan Stichting Buitenbeesten</h2>
-            <div class="clearfix">
-                <a href="./beleidsplan" class="box w33"><i class="fa fa-file-text" aria-hidden="true"></i>
-                <span class="icon-caption">Beleidsplan</span></a>
-
-                <div class="w33">
-                    <ul>
-                        <li>Voorzitter: Gwan Ho</li>
-                        <li>Penningmeester: Vincent Zumpolle</li>
-                        <li>Secretaris: Monique Geurts</li>
-                    </ul>
-                    <span>Bestuur krijgt geen honorarium</span>
-                </div>
-
-                <a href="./begroting" class="box w33"><i style='font-size: 120px' class="fa fa-table" aria-hidden="true"></i>
-                <span style="margin-top: -20px" class="icon-caption">Begroting</span></a>
-
-
-            </div>
-
-        </div>
     </div>
+
+
+
+
+
+<div class="section">
+        <h2>Doelstellingen Stichting Buitenbeesten</h2>
+        <p id='doelp'>Kinderen die om welke reden dan ook niet passen binnen de setting van een regulier
+            manege/kinderboerderij, een plek te bieden om te leren omgaan met allerlei boerderijdieren en de
+            daarbij horende verzorging.
+            De kernactiviteit is het zoveel als mogelijk is zelfstandig maken van deze kinderen door een leeromgeving
+            aan te bieden met dieren in het algemeen en in het bijzonder met paarden, o.l.v. gekwalificeerd personeel.
+        </p>
+</div>
