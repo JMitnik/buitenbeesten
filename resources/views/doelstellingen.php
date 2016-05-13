@@ -5,7 +5,7 @@
             Samen met gekwalificeerde collega's vormen we een superteam om kinderen een fijne leerzame middag te geven in een rustige en uitdagende omgeving. We kijken naar wat het kind nodig heeft, in overleg met de ouders, en stellen daarop bepaalde doelen af.
             </p>
             <h3>Zoals:</h3>
-            <ul class="clearfix descr">
+            <ul class="clearfix descr falogos">
                 <li>
                 <span>
                     <span class="fa-stack fa-lg">

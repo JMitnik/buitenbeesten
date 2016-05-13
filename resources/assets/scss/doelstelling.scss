@@ -39,18 +39,19 @@ div#doelstelling{
         color: white;
         font-family: 'Slabo 27px', serif;
     }
-
-    ul {
-        padding-left: 0;
-
-        li {
+    li{
             float: left;
-            padding: 15px;
             color: #eee;   
             font-family: 'Slabo 27px', serif;
             list-style-type: none;
-            height: 200px;  
             width: 33%;
+    }
+    ul.falogos{
+        padding-left: 0;
+
+        li {
+            padding: 15px;
+            height: 200px;  
             opacity: 0;
             -moz-transition: all 700ms ease-out;
             -webkit-transition: all 700ms ease-out;
