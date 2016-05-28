@@ -56,12 +56,17 @@ div#doelstelling{
 //     }
 
 // }
-
+}
 
 ul.falogos{
     padding-left: 0;
 
+
     li {
+        color: #eee;
+        font-family: 'Slabo 27px', serif;
+        float: left;
+        width: 33%;
         padding: 15px;
         height: 200px;  
         opacity: 0;
@@ -85,8 +90,6 @@ ul.falogos{
             -ms-transform: translate(0px, 0px);
             transform: translate3d(0px, 0px, 0px);
         }
-        span.fa {
-        
-        }
+
     }
 }

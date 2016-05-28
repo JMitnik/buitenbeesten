@@ -1,15 +1,17 @@
 #nav{
-    height: 50px;
+    height: auto;
+    min-height: 50px;
     background-color:#25A8E0;
     box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 10px 0 rgba(0,0,0,0.19);
     position: fixed;
     top: 0;
     width: inherit;
     z-index: 600;
+    text-align: center;
 
 	ul#sectionlist {
 	    height: 100%;
-	    width: 45%;
+	    width: 70%;
 	    margin: 0 auto;
 	    padding: 0;
 

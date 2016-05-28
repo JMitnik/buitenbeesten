@@ -57,7 +57,7 @@
 </div>
 
 <div id="footer" class="section">
-    <p id='footerp'>Stiching Buitenbeesten 2016</p>
+    <p id='footerp'>Stichting Buitenbeesten 2016</p>
 </div>
 </div>
 </div>

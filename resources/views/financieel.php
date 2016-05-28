@@ -1,4 +1,4 @@
-<div id="finverantwoording" class="section">
+<div id="financieel" class="section">
    <h2>Financiële verantwoording</h2>
    <h3>Jaarrekening 2015</h3>
    <div class="fintable">

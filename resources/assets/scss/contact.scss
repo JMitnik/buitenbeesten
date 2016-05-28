@@ -9,7 +9,7 @@ div#contact{
 }
 #infodiv{
     width:25%;
-    height:300px;
+    min-height:300px;
     position: absolute;
     z-index: 1000;
     background-color: white;
@@ -45,7 +45,6 @@ a:hover {
     height: 40px;
     text-align:right;
     #footerp{
-        padding-top: 10px;
         padding-right: 5px;
         letter-spacing: 1.2px;
         line-height: 1.2;
