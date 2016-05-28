@@ -40,14 +40,14 @@
      <img src="../resources/assets/images/logo_stichting_bb.png" alt="stiching buitenbeesten logo";></img>
     </div>
     <ul id="kaartje">
-        <li>Middenweg 1, 1191LG</li>
+        <li>Middenweg 1, 1191  LG</li>
         <li>Ouderkerk aan de Amstel</li>
         <li>&nbsp;</li>
+        <li>Heeft u interesse? Dan bent u altijd welkom voor het maken van een afspraak via:</li>
         <li>&nbsp;</li>
-        <li><a class="mailto" href="Bernaddete@buitenbeesten.nl">Mail:Bernaddete@buitenbeesten.nl</a></li>
+        <li><a class="mailto" href="Bernadette@buitenbeesten.nl">Mail:Bernadette@buitenbeesten.nl</a></li>
         <li>&nbsp;</li>
         <li>Telefoon:06-21838346</li>
-        <li>&nbsp;</li>
         <li>&nbsp;</li>
         <li>RSIN:855765185</li>
     </ul>  

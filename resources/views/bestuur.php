@@ -3,7 +3,7 @@
     <div class="clearfix content-container center">
         <div class="center">
             <ul>
-                <li>Voorzitter: Gwan Ho</li>
+                <li>Voorzitter: Gwan Ing Ho</li>
                 <li>Penningmeester: Vincent Zumpolle</li>
                 <li>Secretaris: Monique Geurts</li>
             </ul>

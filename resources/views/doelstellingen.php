@@ -20,7 +20,7 @@
                     <span class="fa-stack fa-lg">
                         <i class="fa fa-eye fa-stack-2x" aria-hidden="true"></i>
                     </span>
-                    <span>Verbetering van sesorische informatieverwerking.</span>
+                    <span>Verbetering van sensorische informatieverwerking.</span>
                 </span>
                 </li>
                 <li>
@@ -56,7 +56,7 @@
                     <span class="fa-stack fa-lg">
                         <i class="fa fa-sign-language fa-stack-2x" aria-hidden="true"></i>
                     </span>
-                    <span>De begeleiding is 1 op 1 en altijd samen met een kinderfysiotherpeute.</span>
+                    <span>De begeleiding is 1 op 1 en altijd samen met een kinderfysiotherapeute.</span>
                 </span>
                 </li>
             </ul>

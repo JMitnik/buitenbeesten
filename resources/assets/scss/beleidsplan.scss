@@ -1,6 +1,44 @@
 #beleidsplan {
+    width:100%;
+    text-align: center;
+    display: inline-block;
 	a:hover {
 		text-decoration: none;
 		font-weight: bold;
 	}
+    #beleidsplanleft{
+        width:40%;
+
+    }
+    #document{
+        width:20%;
+        text-align: center;
+
+    }
+    #beleidsplanright{
+
+    }
+    #org{
+        width:80%;
+        border:solid 2px;
+        border-color:floralwhite;
+        background-color: #528B8B;
+    }
+    #orgtext{
+        
+    }
+    #orgopening{
+        
+    }
+    #wrapper{
+      width:25%;
+      float:left;
+    }
+    #bestedingwrapper{
+        width:100%;
+    }
+    p>strong{
+        margin-top:10px;
+        display:inline-block;
+    }
 }
