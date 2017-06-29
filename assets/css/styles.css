@@ -36,3 +36,21 @@ div#activiteiten h2,div#activiteiten p,div#bestuur p{color:#fff}#kaartje,a{color
     background: #2E95FF;
     text-decoration: none;
 }
+
+.dib {
+    display: inline-block;
+}
+
+.block {
+    display: block;
+}
+
+.subtle-hover:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.unhover:hover {
+    text-decoration: none;
+    color: none;
+}
